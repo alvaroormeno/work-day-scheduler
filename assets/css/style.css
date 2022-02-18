@@ -1,8 +1,4 @@
 header {
-    /* text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0; */
     border-bottom: 10px solid black;
 }
 
@@ -24,8 +20,35 @@ textarea {
     background-color: #06AED5;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-size: 25px;
 }
 
 .hourStamp {
     border-top: 2px dashed #000000;
 }
+
+.presentHour{
+    background-color: #ff6961;
+}
+
+.pastHour{
+    background-color: #d3d3d3;
+}
+
+.futureHour{
+    background-color: #77dd77;
+}
+
+.clearBtn {
+    background-color: rgb(250, 89, 89);
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    font-size: 20px;
+    /* transition: all .3s ease-in-out; */
+    transition: ease-in;
+    background-color: rgb(92, 130, 242);
+  }
