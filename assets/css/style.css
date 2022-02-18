@@ -1,0 +1,31 @@
+header {
+    /* text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0; */
+    border-bottom: 10px solid black;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 2px solid black;
+    padding: 10px;
+}
+
+.row {
+    height: 75px;
+    border-top: 1px solid white;
+}
+
+.btn {
+    background-color: #06AED5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.hourStamp {
+    border-top: 2px dashed #000000;
+}
